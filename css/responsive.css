@@ -1,0 +1,103 @@
+/* Mobile Phones */
+@media screen and (max-width:576px) {
+    .container, footer{
+        width: 576px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .heading-part{
+        text-align: center;
+    }
+    .banner .heading{
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .main-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card{
+        background: none;
+        margin-top: -100px;
+    }
+    .card a{
+        border-radius: 10px;
+        border: 1px solid #E8E8E8;
+        margin-left: 120px;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blogs :nth-child(7){
+        display: none;
+    }
+    .blogs :nth-child(8){
+        display: none;
+    }
+    .blogs :nth-child(9){
+        display: none;
+    }
+    .blog{
+        width: 335px;
+        margin-left: 100px;
+    }
+    .up-match{
+        width: 312px;
+    }
+    footer{
+        text-align: center;
+    }
+    footer h2{
+        margin-right: 80px;
+    }
+    footer ul{
+        flex-direction: column;
+        margin-right: 10px;
+        line-height: 25px;
+    }
+
+    
+}
+/* Tablet and Ipad */
+@media screen and (min-width:768px) and (max-width:992px) {
+    .container, footer{
+        min-width: 768px;
+        max-width: 992px;
+    }
+    .content-section{
+        padding-left: 50px;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main-section{
+        flex-direction: column;
+    }
+    .card{
+        background: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card a{
+        border-radius: 10px;
+        border: 1px solid #E8E8E8;
+    }
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs :nth-child(9){
+        display: none;
+    }
+    .responsive-button{
+        display: block;
+        text-align: center;
+    }
+    .blog{
+        width: 357px;
+    }
+    .up-match{
+        width: 312px;
+    }
+}
