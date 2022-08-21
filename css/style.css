@@ -121,6 +121,9 @@ body {
     margin: 0px 24px 24px;
     width: auto;
 }
+.blog img{
+    width: 100%;
+}
 
 .blog h2 {
     font-weight: 500;
